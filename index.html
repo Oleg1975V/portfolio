@@ -1,0 +1,442 @@
+<!--index.html-->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>My Portfolio</title> 
+	<link rel="stylesheet"
+		href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="responsive.css"> 
+</head> 
+
+<body> 
+	<!-- Navbar header section -->
+	<header class="header"> 
+		<nav class="navbar"> 
+			<!-- Логотип -->
+            <div class="logo"> 
+                <img src="images/logo.jpg" alt="Логотип" class="logo-img">
+            </div> 
+    
+            <!-- Девиз -->
+            <div class="slogan-wrapper"> 
+                <div class="slogan-lines">
+                    <p class="slogan-line">Решения с точностью машины</p>
+                    <p class="slogan-line">и душой художника</p>
+                </div>
+            </div>   
+			<div class="hamburger" id="hamburger"> 
+				<i class="fas fa-bars hamburger-icon"></i> 
+				<i class="fas fa-times cross-icon"></i> 
+			</div> 
+			<div class="menu"> 
+				<ul class="menu-list"> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#home"> 
+							Главная 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#portfolio"> 
+							Портфолио 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#about"> 
+							Обо мне 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#services"> 
+							Услуги 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#contact"> 
+							Контакты 
+						</a> 
+					</li> 
+				</ul> 
+			</div> 
+		</nav> 
+	</header> 
+
+	<!-- Main hero banner -->
+	<section id="home" class="hero"> 
+		<div class="intro"> 
+			<div class="headings"> 
+				<h1 class="greet-heading">Привет, я</h1> 
+				<h1 class="my-heading">Олег Воробьев</h1> 
+				<h3 class="sub-heading"> 
+					Разработчик: Puthon, SQL, PostgreSQL, ORM, ООП, API, HTML/CSS, java, Django, Flask, Git. 
+				</h3> 
+			</div> 
+			<div class="intro-buttons"> 
+				<a href="#contact" class="btn common-btn">Связаться со мной</a>
+                <a href="resume.html" class="btn">Мое резюме</a>
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Portfolio Section -->
+	<section class="portfolio" id="portfolio"> 
+		<div class="portfolio-heading"> 
+			<h1 class="my-heading text-center">Содержание портфолио</h1> 
+		</div> 
+		<div class="portfolio-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/designImage2.avif"
+								alt="Web Design Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">Веб-дизайн</h3> 
+						<p class="small-para blue-text">Designing</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/webDevelopment2.avif"
+								alt="Web Development Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Веб-разработка 
+						</h3> 
+						<p class="small-para blue-text">Development</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/SEOImage2.avif" alt="SEO Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">SEO</h3> 
+						<p class="small-para blue-text">Optimization</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/contentImage2.avif"
+								alt="Content Writting Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Наполнение контента 
+						</h3> 
+						<p class="small-para blue-text">Writing</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/wordpressImage2.avif"
+								alt="Wordpress Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Разработка WordPress 
+						</h3> 
+						<p class="small-para blue-text"> 
+							Content Management System 
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./Images/CreationTelegram.avif"
+								alt="Creation Telegram Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Создание Телеграм-бота
+						</h3> 
+						<p class="small-para blue-text">Creation</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- About Section -->
+	<section id="about" class="about"> 
+		<div class="about-text"> 
+			<h1 class="my-heading">Обо мне</h1> 
+			<p class="lead-para"> 
+				Пока оставлю написание контента обо мне на потом
+			</p> 
+			<p> 
+				Второй абзац обо мне
+			</p> 
+		</div> 
+		<div class="about-image"> 
+			<img src="./Images/heroImg2.avif" alt="About Image"> 
+		</div> 
+	</section> 
+
+	<!-- Services Section -->
+	<section class="services" id="services"> 
+		<div class="services-heading"> 
+			<h1 class="my-heading text-center">Мои услуги</h1> 
+		</div> 
+		<div class="services-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-paint-brush"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text">Веб-дизайн</h3> 
+						<p class="small-para"> 
+							Веб-дизайн — внешняя красота и комфорт использования сайта.
+						</p> 
+						<p class="small-para"> 
+							Проектирование внешнего вида и удобства пользования сайтом.
+                            Дизайнер решает, какой должна быть форма и расположение элементов на страницах,
+                            выбирает цвета, шрифты и графику, создает приятную атмосферу
+                            и обеспечивает удобство восприятия информации пользователями.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fa-solid fa-code"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Веб-разработка 
+						</h3> 
+						<p class="small-para"> 
+							Веб-разработка — техническая сторона сайта (создание и поддержка). 
+						</p> 
+						<p class="small-para"> 
+							Создание и настройка работы сайтов и онлайн-сервисов.
+                            Сюда входит написание кода, организация работы страниц,
+                            подключение баз данных и обеспечение работоспособности сайта.
+                            Задача разработчиков — сделать так, чтобы сайт работал правильно
+                            и стабильно выполнял нужные функции.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-chart-line"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text">SEO</h3> 
+						<p class="small-para"> 
+							SEO — это комплекс мер, направленных на повышение позиций
+                            сайта в результатах поисковых систем 
+						</p> 
+						<p class="small-para"> 
+							Цель SEO — сделать так, чтобы сайт чаще появлялся среди первых результатов поиска
+                            по нужным запросам, увеличивая количество посетителей и повышая популярность ресурса.
+                            SEO помогает поисковикам лучше понимать содержание сайта.
+                        </p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-quote-left"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Наполнение контента 
+						</h3> 
+						<p class="small-para"> 
+							Наполнение контента — это процесс добавления
+                            полезного материала на сайт или блог. 
+						</p> 
+						<p class="small-para"> 
+							Цель наполнения контента — повысить ценность сайта,
+                            удержать интерес аудитории и увеличить посещаемость.
+                            Контент может включать тексты, фотографии, видеоролики,
+                            инфографику и любые другие материалы, которые привлекают внимание пользователей
+                            и помогают решить их проблемы или удовлетворить потребности.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fab fa-wordpress-simple"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Разработка WordPress 
+						</h3> 
+						<p class="small-para"> 
+							Разработка WordPress — создание и настройка сайтов
+                            на популярной платформе WordPress.
+						</p> 
+						<p class="small-para"> 
+							Включает в себя выбор подходящей темы, установку необходимых плагинов,
+                            создание уникальных дизайнов и функционала, 
+                            а также адаптацию сайта под нужды конкретного бизнеса или проекта.
+                            Задача построить удобный, красивый и производительный ресурс, 
+                            для эффективного решения поставленных задач.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+                            <i class="fab fa-telegram-plane"></i> 
+                        </div>
+						<h3 class="greet-heading blue-text"> 
+							Создание Телеграм-бота 
+						</h3> 
+						<p class="small-para"> 
+							Создание Telegram-бота — это процесс разработки специального
+                            автоматизированного помощника, программы или сервиса в мессенджере Telegram. 
+						</p> 
+						<p class="small-para"> 
+							Основные этапы процесса создания включают проектирование функционала, 
+                            написание программного кода, развертывание, тестирование и последующую поддержку Телеграм-бота.
+						</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Contact me section -->
+	<section class="contact" id="contact"> 
+		<div class="contact-heading"> 
+			<h1 class="my-heading text-center">Мои контакты</h1> 
+		</div> 
+		<div class="contact-content"> 
+			<div class="contact-form-container"> 
+				<h1 class="greet-heading">Для связи со мной заполните форму</h1> 
+				<form 
+					class="contact-form" 
+					action="https://formsubmit.co/vorobev.2009@yandex.ru" 
+					method="POST"
+				>
+					<!-- Основные параметры -->
+					<input type="hidden" name="_captcha" value="false">
+					<input type="hidden" name="_next" value="https://oleg1975v.github.io/portfolio/thanks.html">
+					<input type="hidden" name="_subject" value="Новое сообщение с портфолио">
+					
+					<!-- Кастомные мета-данные -->
+					<input type="hidden" name="_url" value="https://oleg1975v.github.io/portfolio">
+					<input type="hidden" name="_website" value="Портфолио Олега Воробьева">
+					<input type="hidden" name="_replyto" value="no-reply@portfolio.com">
+					
+					<!-- Поля формы -->
+					<div class="form-group">
+						<label for="name-input">Ваше имя:</label>
+						<input 
+							id="name-input"
+							class="form-controls" 
+							type="text" 
+							name="Имя"
+							required
+						>
+					</div>
+					<div class="form-group">
+						<label for="email-input">Ваш Email:</label>
+						<input 
+							id="email-input"
+							class="form-controls" 
+							type="email" 
+							name="Email"
+							required
+						>
+					</div>
+					<div class="form-group">
+						<label for="message-textarea">Ваше сообщение:</label>
+						<textarea 
+							id="message-textarea"
+							class="form-controls"
+							name="Сообщение"
+							rows="5"
+							required
+						></textarea>
+					</div>
+					<div class="form-group">
+						<label for="file-input">Прикрепить файл:</label>
+						<input 
+							id="file-input"
+							type="file" 
+							name="attachment" 
+							class="form-controls"
+							accept=".pdf,.doc,.docx"
+						>
+					</div>
+
+					<button 
+						class="form-btn btn common-btn"
+						type="submit"
+					>
+						Отправить сообщение
+					</button>
+				</form>
+			</div> 
+			<div class="contact-details">
+				<h1 class="greet-heading">Мои контактные данные</h1>
+				
+				<!-- EMAIL -->
+				<div class="details"> 
+					<div class="contact-item">
+						<i class="fas fa-envelope icon-style"></i>
+						<h5 class="contact-heading">EMAIL</h5>
+					</div>
+					<p class="contact-text">vorobev.2009@yandex.ru</p> 
+				</div> 
+			
+				<!-- Телефон -->
+				<div class="details"> 
+					<div class="contact-item">
+						<i class="fas fa-phone-alt icon-style"></i>
+						<h5 class="contact-heading">Телефон</h5>
+					</div>
+					<p class="contact-text">+7 (900) 598-41-75</p> 
+				</div> 
+			
+				<!-- Телеграм -->
+				<div class="details"> 
+					<div class="contact-item">
+						<i class="fab fa-telegram-plane icon-style"></i>
+						<h5 class="contact-heading">Телеграм</h5>
+					</div>
+					<p class="contact-text">@Oleg1975Borisovich</p> 
+				</div> 
+			
+				<!-- GitHub -->
+				<div class="details"> 
+					<div class="contact-item">
+						<i class="fab fa-github icon-style"></i>
+						<h5 class="contact-heading">GitHub</h5>
+					</div>
+					<p class="contact-text">https://github.com/Oleg1975V </p> 
+				</div> 
+			</div>
+		</div> 
+	</section> 
+
+	<!-- Footer section -->
+	<footer class="footer"> 
+		<div class="footer-content text-center"> 
+			<h4>2025г. https://oleg1975v.github.io/portfolio </h4> 
+		</div> 
+	</footer>
+
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+		integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"> 
+	</script> 
+	<script src="script.js"></script> 
+</body> 
+
+</html>

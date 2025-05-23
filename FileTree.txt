@@ -1,0 +1,13 @@
+C:\Users\Oleg\git_portfolio\portfolio\
+|---index.html
+|---README.md
+|---resume.html
+|---script.js
+|---style.css
+|---thanks.html
+|---images
+|   |---fon.jpg
+|   |---logo.jpg
+|   `---photo.jpg
+`---pdfs
+    `---oleg_vorobev_resume.pdf
