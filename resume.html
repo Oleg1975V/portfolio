@@ -121,29 +121,19 @@
     </style>
 </head>
 <body>
-    <div class="resume-container">
-        <!-- Контейнер для заголовка и кнопок -->
-        <div class="header-row">
-            <h1 class="my-heading">Мое резюме</h1>
-            
-            <!-- Кнопки управления -->
-            <div class="resume-buttons">
-                <a href="index.html" class="btn-back">← Назад на главную</a>
-                <button class="btn-print" onclick="window.print()">🖨 Печать</button>
-            </div>
-        </div>
-
-        <div class="pdf-container">
-            <object 
-                data="/pdfs/oleg_vorobev_resume.pdf" 
-                type="application/pdf"
-                width="100%" 
-                height="800px"
-            >
-                Ваш браузер не поддерживает PDF. 
-                <a href="/pdfs/oleg_vorobev_resume.pdf">Скачать резюме</a>
-            </object>
-        </div>
+    <div class="pdf-container">
+        <iframe 
+            src="https://drive.google.com/file/d/1RFcefMAt34cWWOFOwCktXeGVUendzcF0/preview" 
+            width="100%" 
+            height="800px"
+            style="border: none;"
+            allow="autoplay"
+        >
+            Ваш браузер не поддерживает PDF. 
+            <a href="https://drive.google.com/file/d/1RFcefMAt34cWWOFOwCktXeGVUendzcF0/view?usp=sharing">
+                Скачайте резюме
+            </a>
+        </iframe>
     </div>
 </body>
 </html>
